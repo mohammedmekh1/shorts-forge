@@ -10,24 +10,13 @@ build/
 .env.local
 *.env.*
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Android
-android/app/build/
-android/.gradle/
-android/build/
-android/local.properties
-
-# IntelliJ
-.idea/
-
-# VS Code
-.vscode/
 
 # Coverage
 coverage/

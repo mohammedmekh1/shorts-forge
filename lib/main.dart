@@ -20,16 +20,13 @@ class ShortsForgeApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
-        fontFamily: 'Cairo',
       ),
       locale: const Locale('ar'),
       supportedLocales: const [
         Locale('ar'),
         Locale('en'),
       ],
-      localizationsDelegates: const [
-        // Add localizations delegates if needed
-      ],
+      localizationsDelegates: const [],
       home: const HomeScreen(),
     );
   }
