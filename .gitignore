@@ -1,23 +1,75 @@
 ```
 # Dependencies
 .dart_tool/
-.packages
-.pub/
-build/
+.build/
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Build artifacts
+build/
+dist/
 coverage/
+htmlcov/
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Gradle
+.gradle/
+*.gradle
+!android/gradle.properties
+
+# Flutter/Dart
+**/ios/.generated/
+**/android/.generated/
+**/lib/*.g.dart
+**/lib/*.freezed.dart
+*.iml
 ```
